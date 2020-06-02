@@ -5,6 +5,7 @@ git config --global user.name "leafriend"
 
 git config --global alias.br "branch -vv"
 git config --global alias.co "checkout"
+git config --global alias.cp "cherry-pick"
 git config --global alias.st "status"
 
 git config --global alias.adog "log --all --decorate --oneline --graph"
