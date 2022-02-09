@@ -1,0 +1,51 @@
+{
+    "editor.minimap.enabled": false,
+    "editor.renderWhitespace": "all",
+    "editor.rulers": [
+        40,
+        80,
+        100,
+        120,
+        160
+    ],
+    "editor.suggestSelection": "first",
+    "files.exclude": {
+        "coverage": true,
+        "lib": false,
+        "node_modules": true,
+        ".vscode": true,
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
+    },
+    // "java.home": "/usr/lib/jvm/java-11-openjdk-amd64",
+    // "java.home": "/usr/lib/jvm/java-17-oracle",
+    // "java.home": "C:\\Program Files\\Java\\jdk-16",
+    // "java.home": "C:\\Program Files\\Java\\jdk-17.0.1",
+    "java.jdt.ls.vmargs": "-XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -javaagent:\"/home/leafriend/.vscode-server/extensions/gabrielbb.vscode-lombok-1.0.1/server/lombok.jar\"",
+    "redhat.telemetry.enabled": true,
+    "tabnine.experimentalAutoImports": true,
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "workbench.startupEditor": "newUntitledFile",
+    "git.autofetch": true,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "java.completion.favoriteStaticMembers": [
+        "org.hamcrest.MatcherAssert.assertThat",
+        "org.hamcrest.Matchers.*",
+        "org.junit.Assert.*",
+        "org.junit.Assume.*",
+        "org.junit.jupiter.api.Assertions.*",
+        "org.junit.jupiter.api.Assumptions.*",
+        "org.junit.jupiter.api.DynamicContainer.*",
+        "org.junit.jupiter.api.DynamicTest.*",
+        "org.mockito.Mockito.*",
+        "org.mockito.ArgumentMatchers.*",
+        "org.mockito.Answers.*"
+    ],
+    "editor.inlineSuggest.enabled": true,
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": true
+    }
+}
