@@ -1,0 +1,10 @@
+[alias]
+	br = branch -vv
+	ci = commit
+	co = checkout
+	cp = cherry-pick
+	st = status
+	adog = log --all --decorate --oneline --graph --abbrev=8
+	alias = ! git config --list | grep 'alias\\.' | sed 's/alias\\.\\([^=]*\\)=\\(.*\\)/\\1\\t\\2/' | sort
+	ow = commit --amend --no-edit
+	krof = merge --no-ff --no-edit
