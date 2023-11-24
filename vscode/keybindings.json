@@ -83,11 +83,11 @@
         "command": "workbench.view.extension.test"
     },
     {
-        "key": "ctrl+k ctrl+m",
-        "command": "workbench.action.minimizeOtherEditors"
+        "key": "ctrl+k ctrl+g",
+        "command": "workbench.action.toggleEditorWidths"
     },
     {
-        "key": "ctrl+k ctrl+g",
-        "command": "workbench.action.evenEditorWidths"
+        "key": "shift+alt+e",
+        "command": "editor.action.sourceAction"
     }
 ]
